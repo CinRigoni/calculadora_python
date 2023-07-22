@@ -18,3 +18,11 @@ devuelve la multiplicación de los mismos'''
 def multiplicacion(a, b):
     return (a*b)
 
+'''Funcion que recibe dos numeros como parametros y
+devuelve la division de los mismos'''
+
+def division(a, b):
+    if(b == 0):
+        return ("No se puede dividir por cero!")
+    else:
+        return (a/b)
