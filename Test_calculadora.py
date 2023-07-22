@@ -8,3 +8,11 @@ import pytest
 ])
 def test_suma(a, b, res):
     assert suma(a, b) == res
+
+@pytest.mark.parametrize("a, b, res",[
+    (2,4,-2),
+    (-4,6,-10),
+    (-5,-1,-4),
+])
+def test_resta(a, b, res):
+    assert resta(a, b) == res
