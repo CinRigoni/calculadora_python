@@ -11,3 +11,10 @@ devuelve la resta de los mismos'''
 
 def resta(a, b):
     return (a-b)
+
+'''Funcion que recibe dos números como parámetros y
+devuelve la multiplicación de los mismos'''
+
+def multiplicacion(a, b):
+    return (a*b)
+
