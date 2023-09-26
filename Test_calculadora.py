@@ -1,5 +1,5 @@
-from calculadora import *
 import pytest
+from funciones_calculadora import *
 
 @pytest.mark.parametrize("a, b, res",[
     (2,4,6),
